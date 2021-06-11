@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorRomano", "ConsoleApp1\ConversorRomano.csproj", "{3CEFB58F-1942-424D-80FA-7ED3B494E2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteConversorRomano", "TesteConversorRomano\TesteConversorRomano.csproj", "{E8EC503E-C67E-4016-9C64-2C88D8B63230}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CEFB58F-1942-424D-80FA-7ED3B494E2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEFB58F-1942-424D-80FA-7ED3B494E2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEFB58F-1942-424D-80FA-7ED3B494E2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEFB58F-1942-424D-80FA-7ED3B494E2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EC503E-C67E-4016-9C64-2C88D8B63230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EC503E-C67E-4016-9C64-2C88D8B63230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EC503E-C67E-4016-9C64-2C88D8B63230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EC503E-C67E-4016-9C64-2C88D8B63230}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {413079E7-E53F-45D5-AB6D-2B0683B7DD16}
+	EndGlobalSection
+EndGlobal
