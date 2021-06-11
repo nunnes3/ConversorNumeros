@@ -58,6 +58,11 @@ namespace TesteConversorRomano
         {
             Assert.AreEqual(11140, new ConversorRomanos().Conversor("X̄ĪCXL"));
         }
-
+        [TestMethod]
+        public void RetornaĪX̄()
+        {
+            Assert.AreEqual(9000, new ConversorRomanos().Conversor("ĪX̄"));
+            
+        }
     }
 }

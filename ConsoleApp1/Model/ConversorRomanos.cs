@@ -35,17 +35,20 @@ namespace ConsoleApp1.Model
             if (recebeValorPosTeste.Contains("IV") || recebeValorPosTeste.Contains("IX"))
                 concatenadorResultado -= 2;
 
-            if (recebeValorPosTeste.Contains("XL") || recebeValorPosTeste.Contains("XC"))
-                concatenadorResultado -= 20;
-
-            if (recebeValorPosTeste.Contains("CD") || recebeValorPosTeste.Contains("CM"))
-                concatenadorResultado -= 200;
-
             if (recebeValorPosTeste.Contains("iV") || recebeValorPosTeste.Contains("iX"))
                 concatenadorResultado -= 2000;
 
+            if (recebeValorPosTeste.Contains("iv") || recebeValorPosTeste.Contains("ix"))
+                concatenadorResultado -= 2000;
+
+            if (recebeValorPosTeste.Contains("XL") || recebeValorPosTeste.Contains("XC"))
+                concatenadorResultado -= 20;
+
             if (recebeValorPosTeste.Contains("xL") || recebeValorPosTeste.Contains("xC"))
                 concatenadorResultado -= 20000;
+
+            if (recebeValorPosTeste.Contains("CD") || recebeValorPosTeste.Contains("CM"))
+                concatenadorResultado -= 200;
 
             if (recebeValorPosTeste.Contains("cD") || recebeValorPosTeste.Contains("cM"))
                 concatenadorResultado -= 20000;

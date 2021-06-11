@@ -44,11 +44,23 @@ namespace TesteConversorRomano
             Assert.AreEqual("MCXL", new ConversorNumeros().RetornaNumeroRomano(1140));
         }
         [TestMethod]
-        public void RetornaXCXL()
+        public void RetornaX̄CXL()
         {
 
             Assert.AreEqual("X̄CXL", new ConversorNumeros().RetornaNumeroRomano(10140));
         }
+        [TestMethod]
+        public void RetornaĪX̄()
+        {
 
+            Assert.AreEqual("ĪX̄", new ConversorNumeros().RetornaNumeroRomano(9000));
+        }
+
+        [TestMethod]
+        public void RetornaX̄ĪX̄()
+        {
+
+            Assert.AreEqual("X̄ĪX̄", new ConversorNumeros().RetornaNumeroRomano(19000));
+        }
     }
 }
